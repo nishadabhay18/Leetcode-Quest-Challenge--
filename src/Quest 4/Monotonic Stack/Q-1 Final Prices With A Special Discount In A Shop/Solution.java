@@ -13,7 +13,7 @@ class Solution {
             st.push(prices[i]);
         }
         for(int i=0; i<n; i++){
-            if(nse[i] != -1) nse[i] = prices[i] - nse[i];
+            if(nse[i] != -1) nse[i] = prices[i]-nse[i];
             else nse[i] = prices[i];
         }
         return nse;
