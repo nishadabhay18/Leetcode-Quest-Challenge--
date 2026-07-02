@@ -19,7 +19,8 @@ class Solution {
                         st.push(val1/val2);
                         break;
                 }
-            }else st.push(Integer.parseInt(s));
+            }
+            else st.push(Integer.parseInt(s));
         }
         return st.pop();
     }
